@@ -8,6 +8,21 @@ export default function Store() {
   return (
     <div className="store">
       <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
     </div>
   );
 }
