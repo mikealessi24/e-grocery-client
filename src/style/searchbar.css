@@ -3,13 +3,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .searchbar__container {
   height: 50%;
   width: 80%;
-  border: 1px solid black;
-  border-radius: 2rem;
+  border: 2px solid black;
+  border-radius: 20px;
   display: flex;
   align-items: center;
 }
@@ -17,8 +18,6 @@
 .searchbar__input {
   height: 90%;
   width: 90%;
-  border-top-left-radius: 2rem;
-  border-bottom-left-radius: 2rem;
   margin-left: 20px;
   border: none;
   font-size: 1rem;
@@ -31,5 +30,8 @@
   border-bottom-right-radius: 2rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
+  border-left: 2px solid black;
+  background-color: rgba(255, 255, 0, 0.911);
 }

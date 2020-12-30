@@ -1,6 +1,10 @@
 .userfunctions {
   width: 20%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: flex-end;
+}
+
+.userfunctions div {
+  margin-right: 30px;
 }

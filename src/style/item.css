@@ -1,0 +1,106 @@
+.item {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid gainsboro;
+}
+
+.item__fav {
+  height: 10%;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item__img-container {
+  height: 50%;
+  width: 90%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.item__img-container img {
+  height: 100%;
+}
+
+.item__price {
+  height: 10%;
+  width: 90%;
+  font-size: 20px;
+}
+
+.item__description {
+  height: 20%;
+  width: 90%;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.item__btn-container {
+  height: 10%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item__btn-container button {
+  height: 80%;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1300px) {
+  .item {
+    height: 200px;
+    width: 200px;
+  }
+  .item__description {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  .item__price {
+    font-size: 15px;
+  }
+
+  .item__btn-container button {
+    font-size: 12px;
+  }
+
+  .item__fav {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .item {
+    height: 175px;
+    width: 175px;
+  }
+
+  .item__description {
+    font-size: 8px;
+    padding: 1px;
+  }
+
+  .item__price {
+    font-size: 12px;
+  }
+
+  .item__btn-container button {
+    font-size: 10px;
+  }
+
+  .item__fav {
+    font-size: 10px;
+  }
+}
