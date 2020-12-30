@@ -1,4 +1,6 @@
 .userfunctions {
   width: 20%;
-  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }

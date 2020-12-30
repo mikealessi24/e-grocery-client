@@ -1,6 +1,5 @@
 .logo {
   width: 20%;
-  border: 1px solid red;
   display: flex;
 }
 
@@ -18,7 +17,6 @@
   width: 60%;
   display: flex;
   align-items: center;
-  justify-content: center;
   font-size: 2rem;
   font-weight: bold;
 }
