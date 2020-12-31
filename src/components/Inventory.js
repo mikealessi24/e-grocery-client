@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../style/inventory.css";
+
 export default function Inventory() {
-  return <div></div>;
+  return <div className="inventory"></div>;
 }

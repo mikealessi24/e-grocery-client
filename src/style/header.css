@@ -1,0 +1,19 @@
+.header {
+  height: 5%;
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.header__number {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 5px;
+}
