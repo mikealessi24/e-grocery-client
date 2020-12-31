@@ -8,3 +8,19 @@
 .userfunctions div {
   margin-right: 30px;
 }
+
+@media all and (max-width: 1300px) {
+  .userfunctions div {
+    margin-right: 20px;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .userfunctions div {
+    margin-right: 10px;
+  }
+
+  .userfunctions {
+    font-size: 12px;
+  }
+}
