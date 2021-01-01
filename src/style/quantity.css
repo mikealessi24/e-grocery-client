@@ -1,0 +1,32 @@
+.quantity {
+  border: 2px solid black;
+  width: 20%;
+  height: 65%;
+  border-radius: 20px;
+  display: flex;
+}
+
+.quantity__subtract {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.quantity__num {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.quantity__add {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

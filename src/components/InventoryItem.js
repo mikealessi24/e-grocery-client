@@ -2,6 +2,8 @@ import React from "react";
 
 import "../style/inventoryItem.css";
 
+import Quantity from "../components/Quantity";
+
 export default function InventoryItem() {
   return (
     <div className="inventoryItem">
@@ -15,7 +17,7 @@ export default function InventoryItem() {
         <div className="inventoryItem__description">blah blah</div>
       </div>
       <div className="inventoryItem__info">
-        <div>quantity</div>
+        <Quantity />
         <div>price</div>
       </div>
     </div>

@@ -1,3 +1,4 @@
 .inventory {
   height: 78%;
+  overflow-y: scroll;
 }
