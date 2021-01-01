@@ -3,6 +3,7 @@
   border-bottom: 1px solid gainsboro;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .inventoryItem__description-container {

@@ -1,4 +1,7 @@
 .inventory {
   height: 78%;
   overflow-y: scroll;
+  background-image: url("https://i.pinimg.com/originals/a9/a0/75/a9a075788700ecec89413dce43408d26.jpg");
+  background-position: center;
+  background-size: cover;
 }
