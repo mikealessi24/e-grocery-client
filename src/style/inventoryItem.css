@@ -28,3 +28,9 @@
   align-items: center;
   height: 35%;
 }
+
+@media all and (max-width: 1300px) {
+  .inventoryItem {
+    height: 100px;
+  }
+}
