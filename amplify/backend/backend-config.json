@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "egrocerye734bc18": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
